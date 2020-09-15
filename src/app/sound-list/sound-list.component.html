@@ -1,6 +1,6 @@
 <div *ngFor="let sound of sounds">
   <div>
     <audio id="{{sound.id}}" controls hidden></audio>
-    <button class="sound-btn" (click)="playSound(sound.id, sound.path)">{{ sound.name.substr(0, 40) }}</button>
+    <button class="sound-btn" (click)="playSound(sound.id, sound.path)">{{ sound.name.substr(0, 20) + "..." }}</button>
   </div>
 </div>

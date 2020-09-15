@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
 
 .sound-btn {
-    background-color: rgb(70, 70, 70);
+    background-color: transparent;
     width: 100%;
-    max-height: 30px;
+    max-height: 50px;
     outline-style: none;
     font-family: 'BenchNine', sans-serif;
-    font-size: 15px;
-    color: white;
+    font-size: 20px;
+    color: lightgray;
     cursor: pointer;
+    border-style: none;
+}
+
+.sound-btn:focus {
+    padding-left: 20%;
 }
