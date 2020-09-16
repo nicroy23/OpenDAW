@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
-
 .sound-btn {
     background-color: transparent;
     width: 100%;
@@ -10,8 +8,4 @@
     color: lightgray;
     cursor: pointer;
     border-style: none;
-}
-
-.sound-btn:focus {
-    padding-left: 20%;
 }

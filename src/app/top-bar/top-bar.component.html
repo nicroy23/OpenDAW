@@ -1,1 +1,15 @@
-Hello
+<div class="top-container">
+    <div class="tempo-input">
+        <input type="number" min="0" max="200" value="130"><span>BPM</span>
+    </div>
+    <div class="view-switcher">
+        <button class="view-btn" (click)="showDesign()">D</button>
+        <button class="view-btn" (click)="showLayout()">L</button>
+        <button class="view-btn">+</button>
+        <button class="view-btn">+</button>
+    </div>
+</div>
+<div class="main-container">
+    <app-design-structure [ngClass]="design?'show':'dont-show'"></app-design-structure>
+    <app-layout-structure [ngClass]="layout?'show':'dont-show'"></app-layout-structure>
+</div>
